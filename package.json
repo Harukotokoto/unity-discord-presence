@@ -1,0 +1,9 @@
+{
+  "name": "com.harukoto.discord-editor-presence",
+  "version": "0.2.0",
+  "displayName": "Discord Editor Presence",
+  "description": "Publish the Unity Editor's activity to the local Discord desktop client on Windows.",
+  "unity": "2022.3",
+  "license": "Apache-2.0",
+  "keywords": ["discord", "rich-presence", "editor"]
+}

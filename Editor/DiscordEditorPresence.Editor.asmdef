@@ -1,0 +1,6 @@
+{
+  "name": "DiscordEditorPresence.Editor",
+  "rootNamespace": "DiscordEditorPresence",
+  "includePlatforms": ["Editor"],
+  "autoReferenced": false
+}
