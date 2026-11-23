@@ -1,16 +1,24 @@
-# Discord Editor Presence
-
-Unity 에디터의 작업 상태를 Discord Rich Presence에 표시합니다. Windows의 Unity 2022.3 이상을 대상으로 합니다.
+<div align="center">
+<h1>Discord Editor Presence</h1>
+<p>Unity 에디터의 작업 상태를 Discord Rich Presence에 표시합니다. Windows의 Unity 2022.3 이상을 대상으로 합니다.</p>
 
 [설치](#설치) · [활동 표시 및 공유](#활동-표시-및-공유) · [문제 해결](#문제-해결) · [라이선스 및 기여](#라이선스-및-기여)
 
 [日本語](README.md) · [English](README.en.md) · [한국어](README.ko.md)
 
+</div>
+
 ## 설치
 
-1. Unity의 `Window > Package Manager`에서 `+` → `Add package from tarball…`을 선택한 후 배포용 `.tgz` 파일을 지정합니다. 소스에서 설치하려면 `Add package from disk…`에서 `package.json`을 선택합니다. [Unity 설치 안내](https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-tarball.html)
+1. Git을 설치하고 명령줄에서 `git --version`이 실행되는지 확인합니다. Unity의 `Window > Package Manager`에서 `+` → `Add package from git URL…`을 선택합니다. 다음 URL을 붙여넣고 `Add`를 누릅니다. [Unity의 Git URL 설치 안내](https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-giturl.html)
+
+   ```text
+   https://github.com/Harukotokoto/unity-discord-presence.git#main
+   ```
 2. Discord 데스크톱 앱에 로그인하고 사용자 설정에서 활동 공유를 켭니다. [Discord 활동 공유 설정](https://support.discord.com/hc/en-us/articles/7931156448919-Activity-Sharing-on-Discord-FAQ)
 3. Unity의 `Window > Discord Editor Presence`에서 **このプロジェクトのアクティビティを共有する**(이 프로젝트의 활동 공유)를 켭니다.
+
+배포용 `.tgz` 파일을 설치하려면 `Add package from tarball…`을 선택합니다. 로컬 소스에서 설치하려면 `Add package from disk…`에서 `package.json`을 선택합니다. [tarball 설치 안내](https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-tarball.html)
 
 패키지에 Application ID가 포함되어 있습니다. 자신의 Discord 앱 이름으로 표시하려면 **独自の Application ID**(사용자 지정 Application ID)에 ID를 입력하고 Enter 키를 누릅니다. 필드를 비우면 패키지에 포함된 ID를 다시 사용합니다. [Discord Developer Portal](https://discord.com/developers/applications)
 
@@ -29,4 +37,10 @@ Unity 에디터의 작업 상태를 Discord Rich Presence에 표시합니다. Wi
 
 ## 라이선스 및 기여
 
-Apache License 2.0으로 배포합니다. 변경 사항과 기여 방법은 아래 문서를 참고하세요. [라이선스](LICENSE) · [변경 이력](CHANGELOG.md) · [기여 안내](CONTRIBUTING.md)
+Apache License 2.0으로 배포합니다. 변경 사항과 기여 방법은 아래 문서를 참고하세요.
+
+<div align="center">
+
+[라이선스](LICENSE) · [변경 이력](CHANGELOG.md) · [기여 안내](CONTRIBUTING.md)
+
+</div>

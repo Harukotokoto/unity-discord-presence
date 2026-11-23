@@ -1,16 +1,24 @@
-# Discord Editor Presence
-
-Show your Unity Editor activity in Discord Rich Presence. This package targets Unity 2022.3 and later on Windows.
+<div align="center">
+<h1>Discord Editor Presence</h1>
+<p>Show your Unity Editor activity in Discord Rich Presence. This package targets Unity 2022.3 and later on Windows.</p>
 
 [Install](#install) · [Activity and sharing](#activity-and-sharing) · [Troubleshooting](#troubleshooting) · [License and contributing](#license-and-contributing)
 
 [日本語](README.md) · [English](README.en.md) · [한국어](README.ko.md)
 
+</div>
+
 ## Install
 
-1. In Unity, open `Window > Package Manager`, then choose `+` → `Add package from tarball…` and select the release `.tgz`. To install from source, choose `Add package from disk…` and select `package.json`. [Unity installation guide](https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-tarball.html)
+1. Install Git and verify that `git --version` works from the command line. In Unity, open `Window > Package Manager`, then choose `+` → `Add package from git URL…`. Paste the following URL and click `Add`. [Unity's Git URL installation guide](https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-giturl.html)
+
+   ```text
+   https://github.com/Harukotokoto/unity-discord-presence.git#main
+   ```
 2. Sign in to Discord desktop and enable activity sharing in User Settings. [Discord activity sharing settings](https://support.discord.com/hc/en-us/articles/7931156448919-Activity-Sharing-on-Discord-FAQ)
 3. In Unity, open `Window > Discord Editor Presence` and enable **このプロジェクトのアクティビティを共有する** (Share activity for this project).
+
+To install a release `.tgz`, choose `Add package from tarball…`. For a local source checkout, choose `Add package from disk…` and select `package.json`. [Tarball installation guide](https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-tarball.html)
 
 The package includes an Application ID. To display activity under your own Discord app name, enter your ID in **独自の Application ID** (Custom Application ID) and press Enter. Clear the field to restore the bundled ID. [Discord Developer Portal](https://discord.com/developers/applications)
 
@@ -29,4 +37,10 @@ Sharing starts off. The sharing and name visibility preferences are saved per pr
 
 ## License and contributing
 
-Distributed under Apache License 2.0. See the release changes and how to contribute in the files below. [License](LICENSE) · [Changelog](CHANGELOG.md) · [Contributing guide](CONTRIBUTING.md)
+Distributed under Apache License 2.0. See the release changes and how to contribute in the files below.
+
+<div align="center">
+
+[License](LICENSE) · [Changelog](CHANGELOG.md) · [Contributing guide](CONTRIBUTING.md)
+
+</div>
